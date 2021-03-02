@@ -87,3 +87,22 @@ img {
 .clear {
   clear: both;
 }
+
+/* RESPONSIVE */
+/* RESPONSIVE FROM 768 TO 991 */
+@media screen and (min-width: 768px) {
+  img {
+    height: 150px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+/* RESPONSIVE FROM 992 */
+@media screen and (min-width: 992px) {
+  img {
+    height: 200px;
+  }
+}

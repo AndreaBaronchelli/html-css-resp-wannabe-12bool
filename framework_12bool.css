@@ -237,7 +237,7 @@
     }
 }
 
-/* RESPONSIVE UP TO 992 */
+/* RESPONSIVE FROM 992 */
 @media screen and (min-width: 992px) {
     /* Columns */
     .col-lg-12 {
