@@ -1,8 +1,24 @@
+/* General */
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .row {
-  width: 992px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 20px;
+}
+
+.row > div{
+  margin-bottom: 20px;
 }
 
 /* BLOCCO LEZIONI */
@@ -50,7 +66,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 15px
 }
 
 /* COMMON */
@@ -65,7 +81,7 @@
 }
 
 img {
-  height: 200px;
+  height: 100px;
 }
 
 .clear {
